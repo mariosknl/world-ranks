@@ -24,6 +24,15 @@
   justify-content: flex-start;
 }
 
+.heading_arrow {
+  color: var(--primary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
 .row {
   display: flex;
   padding: 20px;
