@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/Link";
 import {
   KeyboardArrowDownRounded,
   KeyboardArrowUpRounded,
@@ -77,10 +78,12 @@ const CountriesTable = ({ countries }) => {
       </div>
 
       {orderedCountries.map((country) => (
-        <div className={styles.row}>
-          <div className={styles.name}>{country.name}</div>
-          <div className={styles.population}>{country.population}</div>
-        </div>
+        <Link href={`/country/${country.alpha3Code}`}>
+          <div className={styles.row}>
+            <div className={styles.name}>{country.name}</div>
+            <div className={styles.population}>{country.population}</div>
+          </div>
+        </Link>
       ))}
     </div>
   );
