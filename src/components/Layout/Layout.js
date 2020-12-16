@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Brightness6Rounded } from "@material-ui/icons";
 import Head from "next/head";
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./Layout.module.css";
 
 const Layout = ({ children, title = "World Ranks" }) => {
