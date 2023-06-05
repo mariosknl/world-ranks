@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mui/material": "5.11.14",
-    "@mui/icons-material": "5.11.11",
+    "@mui/material": "5.13.4",
+    "@mui/icons-material": "5.11.16",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
