@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mui/material": "9.0.1",
-    "@mui/icons-material": "9.0.1",
     "next": "16.2.10",
+    "@mui/material": "9.2.0",
+    "@mui/icons-material": "9.2.0",
     "react": "19.2.7",
     "react-dom": "19.2.7"
   }
