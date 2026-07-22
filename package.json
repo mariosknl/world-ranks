@@ -12,6 +12,6 @@
     "@mui/material": "9.2.0",
     "@mui/icons-material": "9.2.0",
     "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react-dom": "19.2.8"
   }
 }
